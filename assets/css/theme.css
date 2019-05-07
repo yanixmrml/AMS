@@ -1,0 +1,488 @@
+
+
+/************* Custom Navigation ***************/
+
+.selector-for-some-widget{
+	box-sizing: content-box;
+}
+
+
+/*************** Default CSS ****************/
+
+.table{
+	font-size: 12px;
+}
+
+.table th{
+	text-align: center;
+}
+
+#source-type,
+#update-ats-button,
+#user-search-button,
+#search-name,
+#user-add-button,
+#settings-search-button,
+#search-effectivity-date,
+#effect-date,
+#settings-add-button{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/********* Login ******************/
+
+#login-wrapper{
+  margin: 0 auto;
+  width: 90%;
+  max-width: 990px;
+  text-align: center;
+  height: auto;
+  min-height: 550px;
+  margin-top: 30px;
+  width: auto;
+  
+  background-color: #e7e7e7;
+}
+
+#login-wrapper .row{  
+  background-color: #ffffff /*#e7e7e7*/;
+}
+
+#login-right-nav{
+  text-align: center;
+  padding: 30px 10px 30px 10px;
+  border: 3px solid #e7e7e7;
+  border-radius: 3px;
+  background-color: #fff;
+  
+  min-height: 550px;
+}
+
+#login-panel{
+  text-align: center;
+  padding: 10px;
+}
+
+#login-panel input{
+  line-height: 28px;
+}
+
+#login-left-nav{
+  padding: 1px;
+  border: 3px solid #e7e7e7;
+  border-radius: 3px;
+  background-color: #F8F9FA !important;
+  /*background-image: url("images/footer-background1.jpg");
+  background-repeat: repeat-x;*/
+  
+  min-height: 430px;
+}
+
+#login-left-nav p{
+  padding-top: 10px;
+}
+
+#login-left-footer{
+  padding: 10px;
+  /*color: #a22029;*/
+  color: #000000;
+}
+
+/*
+#login-image{
+  height: 260px;
+}
+*/
+
+.atspms-dashboard-footnote{
+  font-size: 12px;
+  /*color: #a22029;*/
+  color: #000000;
+}
+
+/********* atspms-dashboard Styles ************/
+
+#row-path{
+  font-size: 13px;
+  background-color: #fff5d0;
+  border-bottom: 1px solid #ddd;
+  line-height: 20px;
+  padding: 10px;
+  margin-bottom: 16px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 6px;
+}
+
+#path-date{
+  vertical-align: middle;
+}
+
+#path-body{
+  text-align: right;
+}
+
+#atspms-dashboard-wrapper{
+  width: 100%;  
+  padding-top: 20px;
+  min-height: 660px;
+}
+
+#left-nav{
+  text-align: center;
+  height: 100%;
+  padding: 30px 10px 30px 10px;
+  /*background-color: #fff5d0;
+  border: 1px solid #ff0;*/
+  /*border-left: 3px solid #a22029;*/
+}
+
+#left-nav p{
+  font-size: 14px;
+}
+
+.left-nav-title{
+  background-color: #a22029;
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 3px;
+}
+
+.left-nav-content{
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.left-nav-content a{
+  color: inherit;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+#footer {
+  padding: 10px;
+  /*min-width: 975px;*/
+  margin-top: 60px;
+  margin-bottom: 0px;
+  background-color: #F8F9FA !important;
+  border: none;
+  color: white;
+  /*background-image: url('images/footer-background1.jpg');
+  background-repeat: repeat;*/
+  border-top: 3px solid #ddd
+}
+
+#footer-left{
+  width: 30%;
+  /*border-left: 1px solid #ddd;  
+  border-right: 1px solid #ddd;*/
+  padding: 3px;
+  /*color: #a22029;*/
+  color: white;
+}
+
+#footer-right{
+  width: 30%;
+  padding: 3px;
+  /*color: #a22029;*/
+  color: white;
+}
+
+#atspms-dashboard-logo{
+  float: left;
+}
+
+.text-muted{
+  text-align: center;
+}
+
+.information-message{
+  color: #6C757D !important;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title-label{
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.col-centered{
+  margin: 0 auto;
+  float: none;
+}
+
+.async-message{
+  text-align: center;
+  color: red;
+}
+
+.center{
+  text-align: center;
+}
+
+.static-size-container{
+  width: 900px;
+}
+
+.left-half{
+  width: 20%;
+  float: left;
+}
+
+.right-half{
+  margin-left: 10px;
+  width: 78%;
+  float: left;
+}
+
+.clear-both{
+  float: none;
+  clear: both;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.hide{
+  float: right;
+  color: black;
+}
+
+.user-info-panel{
+  background-color: #fff; /*#a22029;/*#fcf8e3;/*#edf9ff; /*#fff5d0;/*#fcc;*/
+  padding: 10px;
+  color: black;/*#fff; */
+  /*color: #1f4f82; 
+  border: 1px solid #fcc;
+  border-radius: 6px;
+  boder-radius: 6px;
+
+  */
+}
+
+/*********** Left Navigation ********/
+
+#notifications-board{
+	margin-top: -15px;
+}
+
+#notificationsPane, .notifications-body, .notifications-head{
+	font-size: 0.85em !important;
+}
+
+#notificationsPane{
+	height: 150px;
+}
+
+#notificationsPane ul{
+	list-style: none;
+	height: 150px;
+}
+
+#prevNotifications, #nextNotifications{
+	font-size: 10px !important;
+	cursor: pointer;
+}
+
+/********** Dashboard **************/
+
+/********* Home ********************/
+
+#dashboard-home-panel{
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.activity-panel{
+  border-right: 1px solid #DDD;
+}
+
+.activity-panel ul{
+  text-align: justify;
+  margin-left: -30px;
+  font-size: 0.9em;
+}
+
+.dashboard-atspms-dashboard-services{
+  text-align: center;
+  width: 50%;
+  padding: 3px;
+  height: 180px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboard-atspms-dashboard-services a{
+  font-size: 16px;
+  font-weight: bold;
+  /*color: #a22029;*/
+  color: #000000;
+  text-decoration: none;
+}
+
+.dashboard-atspms-dashboard-services a:hover{
+  text-decoration: underline;
+}
+
+.dashboard-atspms-dashboard-services:hover{
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+}
+
+
+
+/********* Users ********************/
+
+.custom-file-control.selected:lang(en)::after{
+	content: "" !important;
+}
+
+.form-control-file{
+	width: 300px;
+}
+
+.picture-selection{
+	margin-top: 10px;
+}
+
+.img-user {
+	width: 144px;
+	height: 144px;
+}
+
+/********* Settings ********************/
+
+#search-effectivity-date-calendar{
+  width: 70%;
+  display: inline-block;
+}
+
+#search-effectivity-date{
+  width: 95%;
+  display: inline;
+}
+
+@media(max-width: 767px){
+	#content .modal.fade.in{
+		top: 5%;
+	}
+}
+
+/********* ATS ***********************/
+
+.highcharts-yaxis-grid .highcharts-grid-line{
+	display: none;
+}
+
+.ats-col{
+	border: 1px solid white;
+	height: 230px;
+}
+
+.ats-info-body{
+	font-size: 12px;
+}
+
+.mains-info-title{
+	/*font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;
+	font-size: 12px;*/
+}
+
+/********* Power Management ************/
+
+.load-body-info{
+	height: 150px;
+	font-size: 12px;
+}
+
+.toggle-handle{
+	background-color: #e7e7e7;
+}
+
+.load-image-status{
+	width: 80%;
+	height: 80%;
+	max-height: 250px;
+	max-width: 174px;
+}
+
+#realtime-graph-container{
+	height: 400px;
+}
+
+.load-shedding-buttons{
+	margin-bottom: 3px;
+}
+
+#auto-load-shedding{
+	padding-bottom: 1px;
+	padding-top: 2px;
+}
+
+.day-button button{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/******** Reports *********************/
+
+#pills-tab{
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.centered-pills{
+	text-align: center;
+}
+
+.centered-pills ul.nav-plls {
+	display: inline-block;
+}
+
+.centered-pills li{
+	display: inline;
+}
+
+.centered-pills a{
+	float: left;
+}
+
+.label{
+	line-height: 30px;
+}
+
+.select-course{
+	cursor: pointer;
+}
+
+.select-course:hover{
+	text-decoration: underline;
+}
+
+.student-name{
+	cursor: pointer;
+}
+
+.student-name:hover{
+	text-decoration: underline;
+}
+
+.update-user-picture{
+	cursor: pointer;
+}
+
+.update-user-picture:hover{
+	text-decoration: underline;
+}

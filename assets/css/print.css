@@ -1,0 +1,46 @@
+@media print{
+    
+    #faculty-options, #faculty-body-wrapper,#viewPictureModal,
+    #facultyMessageModal, .navbar, #footer, .user-info-panel,.datetimepicker,
+    #print-options, .modal-header, #row-path,#viewUserPictureModal{
+        display: none;
+        visibility: hidden;
+    }
+    
+    #printable-wrapper{
+	display: block;
+	visibility: visible;
+        width: 1063px;
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    
+    #print-attendance-table{
+        margin: 0 auto;
+	text-align: center;
+	width: 100%;
+    }
+    
+    .red{
+        color: red;
+    }
+    
+    .modal-body{
+	margin: 0 auto;
+	text-align: center;
+        width: 1063px;
+    }
+    
+    table{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+    }
+    
+    table, thead{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+    }
+
+}

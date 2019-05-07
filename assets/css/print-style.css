@@ -1,0 +1,408 @@
+
+/***** EBF Form *******/
+
+@page { size 8.5in 11in; margin: 3mm }
+
+@media print {		
+        #ebf-form-wrapper{
+                border: 1px solid white;
+                padding: 0px;
+                margin: 0px;
+                width: 800px;
+                height: 612px;
+        }
+        
+        #print-preview-navigation{
+            display:none;
+        }
+        
+        #print-preview-footer {
+            display: none;
+        }
+        
+        #main-wrapper{
+            padding-top: 0px;
+        }
+        
+        /****** Evaluation ******/
+        	
+        #eval-sheet-form-wrapper{
+                border: 1px solid white;
+                padding: 0px;
+                margin: 0px;
+        }		
+        
+        
+        .evaluation-sheet-form{
+                border: 1px solid white;
+                padding: 0px;
+                margin: 0px;							
+                page-break-inside: auto; 
+                font-size: 10pt;
+        }
+        
+        .evaluation-sheet-footer{
+                clear: both;
+                float: none;
+                border-top: 3px solid black;
+                border-bottom: 3px solid black;
+                height: 28px;
+                padding: 3px;				
+                font-size: 9pt;
+        }
+        
+}
+
+@media screen{
+        
+        #print-preview-navigation{            
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            position: fixed;
+            z-index: 2;
+            width: 100%;
+            color: #fff;
+            background-color: #a22029;
+            text-align: center;
+            margin: 0px;
+        }
+        
+        #print-preview-footer{
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                margin-top: 330px;
+                margin-bottom: 0px;
+                clear: both;
+                float: none;
+                padding: 10px;
+                /*min-width: 975px;*/
+                /*background-color: #a22029;*/
+                background-color: white;
+                border: none;
+                background-image: url('images/footer-background1.jpg');
+                background-repeat: repeat-x;
+                border-top: 3px solid #ddd
+        }
+      
+        #footer-left{
+                float: left;
+                width: 30%;
+                /*border-left: 1px solid #ddd;  
+                border-right: 1px solid #ddd;*/
+                padding: 3px;
+                color: #a22029;
+        }
+      
+        #footer-right{
+                float: left;
+                width: 30%;
+                padding: 3px;
+                color: #a22029;
+        }
+
+        #akan-logo{
+                float: left;
+        }
+                
+        .text-muted{
+                text-align: center;
+        }
+
+        
+        #main-wrapper{
+            clear: both;
+            float: none;
+            display: block;
+            padding-top: 200px;
+            margin-bottom: 100px;
+        }
+        
+        /****** EBF *******/
+        
+        #ebf-form-wrapper{
+                width: 800px;
+                height: 612px;
+                border: 1px solid gray;				
+                padding: 16px 23px 16px 23px;
+                margin: 0 auto;
+        }
+        
+        /****** Evaluation ******/
+        
+        #eval-sheet-form-wrapper{
+                margin: 0 auto;
+                padding: 0px;
+                width: 800px;
+                height: 1124px;
+        }
+        
+        .evaluation-sheet-form{
+                border: 1px solid black;
+                padding: 30px;
+                margin-bottom: 30px;						
+                width: 800px;
+                height: 1124px;
+                font-size: 10pt;
+        }
+        
+        .evaluation-sheet-footer{
+                clear: both;
+                float: none;
+                border-top: 3px solid black;
+                border-bottom: 3px solid black;
+                height: 38px;
+                padding: 3px;					
+                font-size: 10pt;
+        }
+}
+
+/***** General Styles ******/
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.print-banner{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.print-banner-text{
+    font-size: 10pt;
+    text-align: center;
+}
+
+#print-preview-navigation input[type="button"]{
+    box-sizing: border-box;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#print-preview-navigation h3{
+    display: none;
+}
+
+.message{
+    font-family: "Verdana", Geneva, sans-serif;    
+    text-align: center;
+    font-size: 14pt;
+    line-height: 22pt;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-height: 300px;
+}
+
+.message p{
+    background-color: #fcf8e3;
+    padding: 10px;
+}
+
+a{
+    color: #428bca;
+    text-decoration: none    
+}
+
+a:hover{
+    text-decoration: underline;    
+}
+
+
+/****** EBF Form *******/
+
+#ebf-form-wrapper{
+        background: white;
+        font-size: 10pt;
+}
+                
+.col-header-1, .col-header-2, .col-header-3{
+        float: left;
+}
+
+.col-header-1, .col-header-3{
+        width: 31%;
+        text-wrap: none;
+}
+
+.col-header-2{
+        text-align: center;
+}
+
+#ebf-form-body{
+        clear: both;
+        float: none;
+}
+
+#subjects, #billings{
+        float: left;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 300px;
+}
+
+#subjects{
+        width: 50%;			
+        border-right: 1px solid black;
+}
+
+#billings{
+        width: 49%;
+}
+
+#sub-table, #bill-table{
+        width: 100%;
+        font-size: 10pt;
+        border-collapse:separate; 
+        border-spacing:0 5px;
+}
+
+#sub-table thead tr th, #bill-table thead tr th{
+        border-bottom: 1px solid black;
+        border-spacing: 0
+}
+
+#sub-table tbody tr td, #bill-table tbody tr td{
+        padding-left: 10px;
+        font-size: 8pt;
+        line-height: 9pt;
+}
+
+#ebf-form-footer{
+        clear: both;
+        float: none;
+}
+
+#amount-due-label{
+        float: right;
+        padding-right: 100px;
+        font-weight: bold;
+        margin-top: 2px;
+}
+
+#ebf-form-footer{
+        clear: both;
+        float: none;
+        position: relative;
+        z-index: 1;
+        top: -30px;
+        left: 0px;
+}
+
+#ebf-form-footer ul{
+        margin-top: -10px;
+        font-size: 8pt;
+        width: 630px;
+}
+
+.academic-adviser{
+        float: right;
+        text-align: center;
+        padding-right: 100px;
+        font-weight: bold;
+        
+}
+
+
+/**** Add Matriculation Form ********/
+
+.changemat-subjects{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 300px; 
+}
+
+
+/******* Evaluation Sheet Form *******/
+
+.evaluation-sheet-header{
+        margin-bottom: 2px;
+}
+
+.evaluation-sheet-header h3{
+        text-align: center;
+        margin-top: -13px;
+}
+
+.evaluation-sheet-header h4{
+        text-align: center;					
+        margin-top: 3px;
+}
+
+.eval-col-1{
+        float: left;
+        margin-top: -6px;
+        width: 50%;
+}
+
+.eval-col-2{
+        float: left;
+        margin-top: -6px;
+        width: 33%;
+}
+
+.eval-image{
+        width: 130px;
+        height: 130px;
+        margin-top: -70px;
+}
+
+.evaluation-sheet-body{
+        float: none;
+        clear: both;
+}
+
+.eval-form-table, .eval-form-composite-table{
+        width: 100%;
+        font-size: 10pt;
+        border-collapse:separate; 
+        border-spacing:0 5px;
+        border-top: 2px solid black;					
+        border-bottom: 2px solid black;
+}
+
+.eval-form-table thead tr th, .eval-form-composite-table thead tr th{
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        border-spacing: 0;
+        text-align: left;					
+        padding-left: 10px;
+}
+
+.eval-form-table tbody tr td, .eval-form-composite-table tbody tr td{
+        padding-left: 10px;
+        font-size: 10pt;
+        line-height: 11pt;
+        text-align: left;
+}
+
+.eval-semester-label{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+}
+
+.eval-note{
+        float: left;
+        width: 70%;
+}
+
+.eval-signature-table{
+        width: 90%;
+}
+
+
+.eval-page-num{
+        float: right;
+}
+
+.eval-divider{
+    clear: both;
+        float: none;
+        width: 100%;
+        border-top: 3px solid red;	
+}
+

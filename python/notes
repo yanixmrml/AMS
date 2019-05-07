@@ -1,0 +1,7 @@
+Check storage space - raspberrypi
+df -Bm
+df -h
+
+
+Notes
+1. Finish Reports - Ditch Temperature Level, Replace it with current power interruptions
